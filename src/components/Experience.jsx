@@ -37,7 +37,7 @@ const Experience = () => {
                   <img
                     src={experience.icon}
                     alt={experience.company_name}
-                    class="w-[60%] h-[60%] object-contain"
+                    className="w-[60%] h-[60%] object-contain"
                   />
                 </div>
               }
