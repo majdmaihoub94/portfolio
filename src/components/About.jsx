@@ -10,7 +10,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full violet-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
         options={{
@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-6 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        className="bg-primary rounded-[20px] py-6 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
@@ -46,11 +46,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a coding ninja, adept in JavaScript and specialized in React and Vue
+        for front-end development. I love keeping my code clean and optimized,
+        believing every line should pack a punch. But I'm not just about code!
+        I'm also a UI/UX designer, taking pride in creating visually pleasing,
+        user-friendly interfaces with Figma. I thrive on blending aesthetics
+        with functionality, building digital experiences that both look great
+        and work smoothly. So welcome to my world of tech wizardry!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

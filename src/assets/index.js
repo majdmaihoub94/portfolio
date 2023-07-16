@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import championsports from "./company/championsports.svg";
+import ecumondo from "./company/ecumondo.webp";
+import wizme from "./company/wizme.svg";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  championsports,
+  ecumondo,
+  wizme
 };

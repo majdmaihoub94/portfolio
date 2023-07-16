@@ -34,13 +34,16 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #f6a850;
+  background: linear-gradient(-90deg, #f6a850 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #f6a850 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+.border-gradient{
+  border: 1px solid #f6a850 !important;
 }
 
 .green-pink-gradient {

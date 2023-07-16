@@ -23,7 +23,7 @@ const Experience = () => {
             <VerticalTimelineElement
               key={index}
               contentStyle={{
-                background: "#1d1836",
+                background: "#ff8400",
                 color: "#fff",
                 boxShadow: "0 0 10px rgba(203, 203, 203, 0.1)",
               }}

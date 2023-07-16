@@ -17,12 +17,16 @@ import {
     docker,
     meta,
     starbucks,
+    championsports,
+    ecumondo,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    wizme
+
   } from "../assets";
   
   export const navLinks = [
@@ -46,11 +50,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React  Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "UI/UX Designer",
       icon: backend,
     },
     {
@@ -92,10 +96,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    
     {
       name: "Three JS",
       icon: threejs,
@@ -116,71 +117,61 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Frontend developer",
+      company_name: "Champions Sport",
+      icon: championsports,
+      iconBg: "#fff",
+      date: "May 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked in the Back-office products to create new modules helping operators to better control their sportsbook increasing accessibility and ease of use using react, redux, and typescript.",
+        "Redesigned the backoffice UI with Figma using MUI design library and then the migration of the code to the new design using React, redux, MUI, and typescript.",
+        "Built and developed multiple features in a one-stop-solution creating bonus and promotions tools to help operators increase revenues using Vue, Vuex ",
+        "Globalized settings options throughout the application using redux for a better user experience.",
+        "Built and developed reusable components, charts, and templates to reduce development time with react, and typescript."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Frontend developer",
+      company_name: "Ecumondo",
+      icon: ecumondo,
+      iconBg: "#1e4d74",
+      date: "March 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked with 6 team colleagues to build the core components library using React with typescript.",
+        "Developed and discussed best solutions to build reusable components that other developers can depend on it using React with typescript",
+        "Planned with my team the migration from ExtJS framework to React.js in an efficient, time-saving method.",
+        "Developed user interfaces in the cosmetic-factory app using react, typescript handling EQL requests.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      title: "Frontend developer",
+      company_name: "Wizme",
+      icon: wizme,
+      iconBg: "#fff",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Wizme Booking Wizard.Responsible for developing reusable components for login, customer data submission, Venue query submission, and offers page using atomic design pattern in an Agile Team   React, Redux.",
+        "Wizme landing page. Redesigned and Coded the new Landing page with a modern responsive design using React. Next Js improving the website's SEO rank.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "It is rare that you come across with such a talent as Majd. I had the pleasure of working with him as his Career Coach for some months and was particularly impressed to see how focused, ambitious and disciplined he is",
+      name: "Marisa Veiga Lobato-Schlereth",
+      designation: "Diversity Partner",
+      company: "Imagine Foundation",
+      image: "https://media.licdn.com/dms/image/D4E03AQEm3aHFMSj6Vw/profile-displayphoto-shrink_800_800/0/1688028645741?e=1694649600&v=beta&t=yDPL2ZRAcK3JAYex8EvN5xnN-Tt84-8lKybSnQLVu8E",
     },
+    
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Majd does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +179,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Majd optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",

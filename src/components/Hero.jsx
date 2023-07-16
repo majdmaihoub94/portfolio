@@ -10,18 +10,20 @@ const Hero = () => {
         className={` ${styles.paddingX}  absolute inset-0 top-[120px] max-w-8xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+          <div className="w-5 h-5 rounded-full bg-[#f6a850]" />
           <div className="w-1 sm:h:80 h-40 violet-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi I'm &nbsp;
-            <span className="text-[#915eff]">Majd</span>
+            <span className="text-[#f6a850]">Majd</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a front-end developer and a UI/UX designer{" "}
-            <br className="sm:block hidden" /> With a passion for web
-            development and design.
+            Hello, world! I'm a front-end developer and UI/UX designer,
+            transforming
+            <br className="hidden sm:block" />
+            coffee into code and pixels into perfection. Enjoy exploring my
+            digital creations
           </p>
         </div>
       </div>
